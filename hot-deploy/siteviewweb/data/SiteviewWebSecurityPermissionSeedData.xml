@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the SiteviewWeb Component." permissionId="SITEVIEWWEB_VIEW"/>
+    <SecurityPermission description="Create operations in the SiteviewWeb Component." permissionId="SITEVIEWWEB_CREATE"/>
+    <SecurityPermission description="Update operations in the SiteviewWeb Component." permissionId="SITEVIEWWEB_UPDATE"/>
+    <SecurityPermission description="Delete operations in the SiteviewWeb Component." permissionId="SITEVIEWWEB_DELETE"/>
+    <SecurityPermission description="ALL operations in the SiteviewWeb Component." permissionId="SITEVIEWWEB_ADMIN"/>
+
+    <SecurityGroupPermission groupId="SUPER" permissionId="SITEVIEWWEB_ADMIN"/>
+
+</entity-engine-xml>
